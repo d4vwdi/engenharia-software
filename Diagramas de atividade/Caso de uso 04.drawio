@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2023-04-20T23:48:55.134Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="Oftxdc7b1jgG_8er6Sif" version="21.2.1" type="github">
+  <diagram name="Página-1" id="4z89tsGptPQQodIInoYD">
+    <mxGraphModel dx="2187" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XqJy5FtLw2MlF9qePq-H-13" target="QMWMNx0dkZ8oT64IAFHo-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-182" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-1" value="INÍCIO" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-578" y="25" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-1" target="QMWMNx0dkZ8oT64IAFHo-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-532" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-6" target="XqJy5FtLw2MlF9qePq-H-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-6" value="O cliente clica no botão de visualizar pedidos " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-528" y="20" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-7" target="QMWMNx0dkZ8oT64IAFHo-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-7" value="O sistema exibe a tela de visualização de pedidos realizados ou o histórico dos pedidos" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-527" y="215" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-8" target="XqJy5FtLw2MlF9qePq-H-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-8" value="O cliente clica para visualizar os pedidos recentes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-527" y="315" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-26" target="QMWMNx0dkZ8oT64IAFHo-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-26" value="&lt;div&gt;O sistema exibe os pedidos que datam até um mês atrás e seu status, com as informações de data do pedido, número, valor total, forma de pagamento e os itens &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-527" y="510" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-35" target="QMWMNx0dkZ8oT64IAFHo-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-35" target="QMWMNx0dkZ8oT64IAFHo-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-35" value="Não&#xa;" style="strokeWidth=1;shape=mxgraph.flowchart.decision;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacing=5;labelBackgroundColor=default;strokeColor=default;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="-142" y="530" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-60" target="XqJy5FtLw2MlF9qePq-H-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-60" value="O cliente pode optar por ver o histórico de pedidos, que são pedidos que datam após um mês, ou encerrar o caso de uso" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeWidth=1;spacing=2;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-527" y="610" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XqJy5FtLw2MlF9qePq-H-5" target="XqJy5FtLw2MlF9qePq-H-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XqJy5FtLw2MlF9qePq-H-5" target="XqJy5FtLw2MlF9qePq-H-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-5" value="O Sistema exibe o histórico de pedidos com as informações de data do pedido, número, valor total, forma de pagamento e os itens e o caso de uso encerra" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;spacing=2;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-527" y="710" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-10" value="&lt;div&gt;FIM&lt;/div&gt;" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=bottom;" vertex="1" parent="1">
+          <mxGeometry x="-417" y="810" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-13" value="&lt;div&gt;O sistema verifica se o cliente possui pedidos recentes&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-527" y="415" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-54" value="Sim" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;spacing=5;fontSize=12;textDirection=ltr;labelPosition=left;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="-152" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-61" value="O sistema verifica se o cliente possui pedidos recentes ou não" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-528" y="120" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XqJy5FtLw2MlF9qePq-H-64" target="QMWMNx0dkZ8oT64IAFHo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XqJy5FtLw2MlF9qePq-H-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-702" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-64" value="Não" style="rhombus;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-722" y="215" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-68" value="O sistema informa o fato e o caso de uso encerra" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="315" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XqJy5FtLw2MlF9qePq-H-61" target="XqJy5FtLw2MlF9qePq-H-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-727" y="215" as="targetPoint" />
+            <mxPoint x="-528" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-70" value="Sim" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=right;verticalLabelPosition=middle;labelBackgroundColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-732" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
