@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2023-04-11T21:34:36.295Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="9qpjFJM0g2Cawr2CyAsc" version="21.1.6" type="device">
+  <diagram name="Página-1" id="4z89tsGptPQQodIInoYD">
+    <mxGraphModel dx="2187" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-1" value="INÍCIO" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="60" y="130" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-1" target="QMWMNx0dkZ8oT64IAFHo-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-6" target="QMWMNx0dkZ8oT64IAFHo-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-6" value="&lt;span class=&quot;TextRun SCXW67543880 BCX2&quot; style=&quot;font-size: 10pt; line-height: 17.2667px; font-family: Arial, &amp;quot;Arial_EmbeddedFont&amp;quot;, &amp;quot;Arial_MSFontService&amp;quot;, sans-serif;&quot; data-contrast=&quot;auto&quot; lang=&quot;PT-BR&quot;&gt;O cliente clica no botão de pesquisa do site&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="174" y="125" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-7" target="QMWMNx0dkZ8oT64IAFHo-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-7" value="O sistema apresenta o formulário de pesquisa para o cliente" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="174" y="210" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-8" target="QMWMNx0dkZ8oT64IAFHo-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-8" value="O cliente seleciona a forma de pesquisa (título, autor, editora ou categoria) e informa os parâmetros da pesquisa;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="174" y="300" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-26" value="O sistema mostra uma lista de todos os livros que atendem aos parâmetros de busca e opções para visualizar os detalhes do livro ou adicioná-lo ao carrinho;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="174" y="410" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-32" target="QMWMNx0dkZ8oT64IAFHo-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-32" value="O sistema irá exibir uma tela com os detalhes do livro (resumo, sumário, informações sobre autor, o formato do livro, número de páginas e ano de publicação);" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="525" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-35" target="QMWMNx0dkZ8oT64IAFHo-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-35" target="QMWMNx0dkZ8oT64IAFHo-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pwhrbahI0RL6rLHh86HL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-37" target="pwhrbahI0RL6rLHh86HL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;O sistema exibe uma nova página solicitando a confirmação da quantidade de volumes que deseja comprar (que tem que ser no mínimo um)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;spacing=2;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="710" y="645" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-35" target="QMWMNx0dkZ8oT64IAFHo-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-35" target="QMWMNx0dkZ8oT64IAFHo-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-35" value="O cliente clica em adicionar ao carrinho" style="strokeWidth=2;shape=mxgraph.flowchart.decision;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacing=5;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="279" y="545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-46" target="QMWMNx0dkZ8oT64IAFHo-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-46" value="O cliente confere os detalhes do livro e clica em adicionar ao carrinho" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="665" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-49" target="QMWMNx0dkZ8oT64IAFHo-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-49" value="O sistema verifica se o título está disponível" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="174" y="665" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-54" value="O cliente clica no botão de visualizar detalhes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="166" y="510" width="256" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-57" target="QMWMNx0dkZ8oT64IAFHo-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-57" target="QMWMNx0dkZ8oT64IAFHo-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-57" value="Se indisponível" style="strokeWidth=2;shape=mxgraph.flowchart.decision;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;spacing=5;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="545" y="665" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-60" target="QMWMNx0dkZ8oT64IAFHo-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-60" value="O sistema informa que o título não está disponível" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=1;spacing=2;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="440" y="545" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pwhrbahI0RL6rLHh86HL-2" value="FIM" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="820" y="780" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
