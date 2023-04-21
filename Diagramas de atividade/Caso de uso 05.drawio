@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2023-04-21T00:02:26.252Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="DKnlppLXrbofJ4pwS-zm" version="21.2.1" type="github">
+  <diagram name="Página-1" id="4z89tsGptPQQodIInoYD">
+    <mxGraphModel dx="2187" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-1" value="INÍCIO" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-578" y="25" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-1" target="QMWMNx0dkZ8oT64IAFHo-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-532" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-6" target="XqJy5FtLw2MlF9qePq-H-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-6" value="O funcionário requisita a manutenção dos dados do livro" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-528" y="20" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-7" target="XqJy5FtLw2MlF9qePq-H-64" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-700" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-7" value="O funcionário seleciona a operação desejada: inclusão, alteração, exclusão ou consulta ou opta por finalizar o caso de uso" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-527" y="215" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-8" target="XqJy5FtLw2MlF9qePq-H-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-8" value="Se o funcionário deseja continuar com a manutenção, o caso de uso retorna para o passo 2, caso contrário, o caso de uso termina" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-527" y="910" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-35" value="Não&#xa;" style="strokeWidth=1;shape=mxgraph.flowchart.decision;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacing=5;labelBackgroundColor=default;strokeColor=default;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="-142" y="530" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-10" value="&lt;div&gt;FIM&lt;/div&gt;" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=bottom;" parent="1" vertex="1">
+          <mxGeometry x="-417" y="1100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-54" value="Sim" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;spacing=5;fontSize=12;textDirection=ltr;labelPosition=left;verticalLabelPosition=middle;" parent="1" vertex="1">
+          <mxGeometry x="-152" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-61" value="O sistema, apresenta as operações que podem ser realizadas: a inclusão de um novo livro, a alteração dos dados de um livro, a exclusão de um livro e a consulta de um livro" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-528" y="120" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XqJy5FtLw2MlF9qePq-H-64" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-702" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-64" value="Inclusão" style="rhombus;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-722" y="340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XqJy5FtLw2MlF9qePq-H-68" target="-YIbKwoVMx-tm1696TCW-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-68" value="O funcionário seleciona a operação de inclusão" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-827" y="440" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-YIbKwoVMx-tm1696TCW-7" target="-YIbKwoVMx-tm1696TCW-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-7" value="O sistema apresenta um formulário para poder inserir os dados do livro (título, ISBN, número de páginas, ano de publicação, categoria, formato, status, preço de venda, resumo, sumário, informações sobre o autor, preço de custo, margem de lucro, quantidade em estoque e informações sobre a editora)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-827" y="550" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-YIbKwoVMx-tm1696TCW-9" target="-YIbKwoVMx-tm1696TCW-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-9" value="O funcionário insere os dados do livro" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-827" y="720" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-YIbKwoVMx-tm1696TCW-11" target="-YIbKwoVMx-tm1696TCW-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-11" value="O sistema valida os dados exibe uma tela com os dados inseridos e uma confirmação de inserção" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-827" y="830" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-13" value="O funcionário confirma a inserção e o caso de uso encerra" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-827" y="940" width="250" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
