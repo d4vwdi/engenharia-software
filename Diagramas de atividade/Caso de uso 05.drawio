@@ -1,83 +1,208 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T00:02:26.252Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="DKnlppLXrbofJ4pwS-zm" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T00:22:11.823Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="W6TbDpoNVCBpswQ0BoYN" version="21.2.1" type="github">
   <diagram name="Página-1" id="4z89tsGptPQQodIInoYD">
-    <mxGraphModel dx="2187" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9575" dy="3180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QMWMNx0dkZ8oT64IAFHo-1" value="INÍCIO" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-578" y="25" width="30" height="30" as="geometry" />
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-1" value="INÍCIO" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-3601" y="35" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QMWMNx0dkZ8oT64IAFHo-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-1" target="QMWMNx0dkZ8oT64IAFHo-6" edge="1">
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=middle;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-1" target="QMWMNx0dkZ8oT64IAFHo-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-532" y="135" as="targetPoint" />
+            <mxPoint x="-3555" y="145" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XqJy5FtLw2MlF9qePq-H-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-6" target="XqJy5FtLw2MlF9qePq-H-61" edge="1">
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-6" target="XqJy5FtLw2MlF9qePq-H-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QMWMNx0dkZ8oT64IAFHo-6" value="O funcionário requisita a manutenção dos dados do livro" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-528" y="20" width="250" height="40" as="geometry" />
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-6" value="O funcionário requisita a manutenção dos dados do livro" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-3390" y="30" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-7" target="XqJy5FtLw2MlF9qePq-H-64" edge="1">
+        <mxCell id="-YIbKwoVMx-tm1696TCW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;verticalAlign=middle;align=center;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-7" target="XqJy5FtLw2MlF9qePq-H-64" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-700" y="350" as="targetPoint" />
+            <mxPoint x="-3723" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QMWMNx0dkZ8oT64IAFHo-7" value="O funcionário seleciona a operação desejada: inclusão, alteração, exclusão ou consulta ou opta por finalizar o caso de uso" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-527" y="215" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QMWMNx0dkZ8oT64IAFHo-8" target="XqJy5FtLw2MlF9qePq-H-10" edge="1">
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;verticalAlign=middle;align=center;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-7" target="jQgZSz52BUAX0XVgqDSo-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QMWMNx0dkZ8oT64IAFHo-8" value="Se o funcionário deseja continuar com a manutenção, o caso de uso retorna para o passo 2, caso contrário, o caso de uso termina" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-527" y="910" width="250" height="80" as="geometry" />
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;verticalAlign=middle;align=center;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-7" target="jQgZSz52BUAX0XVgqDSo-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QMWMNx0dkZ8oT64IAFHo-35" value="Não&#xa;" style="strokeWidth=1;shape=mxgraph.flowchart.decision;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacing=5;labelBackgroundColor=default;strokeColor=default;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="-142" y="530" width="40" height="40" as="geometry" />
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QMWMNx0dkZ8oT64IAFHo-7" target="jQgZSz52BUAX0XVgqDSo-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2810" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMWMNx0dkZ8oT64IAFHo-7" value="O funcionário seleciona a operação desejada: inclusão, alteração, exclusão ou consulta ou opta por finalizar o caso de uso" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-3390" y="240" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XqJy5FtLw2MlF9qePq-H-10" value="&lt;div&gt;FIM&lt;/div&gt;" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=bottom;" parent="1" vertex="1">
-          <mxGeometry x="-417" y="1100" width="30" height="30" as="geometry" />
+          <mxGeometry x="-3280" y="1110" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XqJy5FtLw2MlF9qePq-H-54" value="Sim" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;spacing=5;fontSize=12;textDirection=ltr;labelPosition=left;verticalLabelPosition=middle;" parent="1" vertex="1">
-          <mxGeometry x="-152" y="535" width="60" height="30" as="geometry" />
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="XqJy5FtLw2MlF9qePq-H-61" target="QMWMNx0dkZ8oT64IAFHo-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XqJy5FtLw2MlF9qePq-H-61" value="O sistema, apresenta as operações que podem ser realizadas: a inclusão de um novo livro, a alteração dos dados de um livro, a exclusão de um livro e a consulta de um livro" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-528" y="120" width="250" height="80" as="geometry" />
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-61" value="O sistema, apresenta as operações que podem ser realizadas: a inclusão de um novo livro, a alteração dos dados de um livro, a exclusão de um livro e a consulta de um livro" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-3390" y="130" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XqJy5FtLw2MlF9qePq-H-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XqJy5FtLw2MlF9qePq-H-64" edge="1">
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" parent="1" source="XqJy5FtLw2MlF9qePq-H-64" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-702" y="440" as="targetPoint" />
+            <mxPoint x="-3725" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XqJy5FtLw2MlF9qePq-H-64" value="Inclusão" style="rhombus;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-722" y="340" width="40" height="40" as="geometry" />
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-64" value="Inclusão" style="rhombus;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=middle;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-3745" y="350" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XqJy5FtLw2MlF9qePq-H-68" target="-YIbKwoVMx-tm1696TCW-7" edge="1">
+        <mxCell id="-YIbKwoVMx-tm1696TCW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" parent="1" source="XqJy5FtLw2MlF9qePq-H-68" target="-YIbKwoVMx-tm1696TCW-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XqJy5FtLw2MlF9qePq-H-68" value="O funcionário seleciona a operação de inclusão" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="440" width="250" height="40" as="geometry" />
+        <mxCell id="XqJy5FtLw2MlF9qePq-H-68" value="O funcionário seleciona a operação de inclusão" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-3850" y="450" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-YIbKwoVMx-tm1696TCW-7" target="-YIbKwoVMx-tm1696TCW-9" edge="1">
+        <mxCell id="-YIbKwoVMx-tm1696TCW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" parent="1" source="-YIbKwoVMx-tm1696TCW-7" target="-YIbKwoVMx-tm1696TCW-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-7" value="O sistema apresenta um formulário para poder inserir os dados do livro (título, ISBN, número de páginas, ano de publicação, categoria, formato, status, preço de venda, resumo, sumário, informações sobre o autor, preço de custo, margem de lucro, quantidade em estoque e informações sobre a editora)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="550" width="250" height="100" as="geometry" />
+        <mxCell id="-YIbKwoVMx-tm1696TCW-7" value="O sistema apresenta um formulário para poder inserir os dados do livro (título, ISBN, número de páginas, ano de publicação, categoria, formato, status, preço de venda, resumo, sumário, informações sobre o autor, preço de custo, margem de lucro, quantidade em estoque e informações sobre a editora)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-3850" y="560" width="250" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-YIbKwoVMx-tm1696TCW-9" target="-YIbKwoVMx-tm1696TCW-11" edge="1">
+        <mxCell id="-YIbKwoVMx-tm1696TCW-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" parent="1" source="-YIbKwoVMx-tm1696TCW-9" target="-YIbKwoVMx-tm1696TCW-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-9" value="O funcionário insere os dados do livro" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="720" width="250" height="40" as="geometry" />
+        <mxCell id="-YIbKwoVMx-tm1696TCW-9" value="O funcionário insere os dados do livro" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-3850" y="730" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-YIbKwoVMx-tm1696TCW-11" target="-YIbKwoVMx-tm1696TCW-13" edge="1">
+        <mxCell id="-YIbKwoVMx-tm1696TCW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" parent="1" source="-YIbKwoVMx-tm1696TCW-11" target="-YIbKwoVMx-tm1696TCW-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-11" value="O sistema valida os dados exibe uma tela com os dados inseridos e uma confirmação de inserção" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="830" width="250" height="40" as="geometry" />
+        <mxCell id="-YIbKwoVMx-tm1696TCW-11" value="O sistema valida os dados exibe uma tela com os dados inseridos e uma confirmação de inserção" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-3850" y="840" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-YIbKwoVMx-tm1696TCW-13" value="O funcionário confirma a inserção e o caso de uso encerra" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="940" width="250" height="40" as="geometry" />
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-YIbKwoVMx-tm1696TCW-13" target="XqJy5FtLw2MlF9qePq-H-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YIbKwoVMx-tm1696TCW-13" value="O funcionário confirma a inserção e o caso de uso encerra" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-3850" y="950" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-3" target="jQgZSz52BUAX0XVgqDSo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-3" value="Alteração" style="rhombus;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=middle;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3450" y="350" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-7" target="jQgZSz52BUAX0XVgqDSo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-7" value="O funcionário seleciona a operação de alteração" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3555" y="450" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-10" target="jQgZSz52BUAX0XVgqDSo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-10" value="O sistema apresenta a página com os dados atuais e com os campos editáveis" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3555" y="560" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-12" target="jQgZSz52BUAX0XVgqDSo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-12" value="O funcionário seleciona o campo que deseja editar e altera a informação" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3555" y="650" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-14" target="jQgZSz52BUAX0XVgqDSo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-14" value="O sistema verifica se a nova informação está de acordo com os critérios e oferece opção de salvar" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3555" y="730" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-16" target="jQgZSz52BUAX0XVgqDSo-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-16" value="O funcionário salva as alterações realizadas" style="whiteSpace=wrap;html=1;rounded=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3555" y="840" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-18" target="XqJy5FtLw2MlF9qePq-H-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-18" value="&lt;span class=&quot;TextRun SCXW80983884 BCX2&quot; style=&quot;font-size: 10pt; line-height: 17.2667px; font-family: Arial, &amp;quot;Arial_EmbeddedFont&amp;quot;, &amp;quot;Arial_MSFontService&amp;quot;, sans-serif;&quot; data-contrast=&quot;auto&quot; lang=&quot;PT-BR&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW80983884 BCX2&quot;&gt;O sistema informa que as alterações foram salvas e &lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW80983884 BCX2&quot;&gt;o caso de uso encerra&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3555" y="950" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-22" target="jQgZSz52BUAX0XVgqDSo-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-22" value="Exclusão" style="rhombus;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=middle;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3125" y="350" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-24" target="jQgZSz52BUAX0XVgqDSo-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-24" value="O funcionário seleciona a operação de exclusão" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3230" y="450" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-26" target="jQgZSz52BUAX0XVgqDSo-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-26" value="O sistema exibe todos os registros de livros que existem no sistema" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3230" y="560" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=middle;align=center;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-28" target="jQgZSz52BUAX0XVgqDSo-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-28" value="O funcionário escolhe qual registro ele quer excluir" style="whiteSpace=wrap;html=1;verticalAlign=middle;rounded=1;labelBackgroundColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3230" y="650" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-30" target="jQgZSz52BUAX0XVgqDSo-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-30" value="O sistema exibe uma tela de confirmação, perguntando se o funcionário deseja realmente excluir o registro selecionado" style="whiteSpace=wrap;html=1;verticalAlign=middle;rounded=1;labelBackgroundColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3230" y="740" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-32" target="jQgZSz52BUAX0XVgqDSo-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-32" value="O funcionário confirma a exclusão" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3230" y="840" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-34" target="XqJy5FtLw2MlF9qePq-H-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-34" value="O sistema excluí efetivamente o registro e o caso de uso se encerra" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3230" y="950" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-40" target="jQgZSz52BUAX0XVgqDSo-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-40" value="Consulta" style="rhombus;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=middle;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2830" y="350" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-42" target="jQgZSz52BUAX0XVgqDSo-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-42" value="O funcionário seleciona a operação de consulta" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2935" y="450" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-44" target="jQgZSz52BUAX0XVgqDSo-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-44" value="O sistema retorna os dados do livro" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2935" y="560" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-46" target="jQgZSz52BUAX0XVgqDSo-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-46" value="O funcionário pode escolher um livro específico para ver mais detalhes" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2935" y="650" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jQgZSz52BUAX0XVgqDSo-48" target="XqJy5FtLw2MlF9qePq-H-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2840" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2810" y="1050" />
+              <mxPoint x="-3265" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQgZSz52BUAX0XVgqDSo-48" value="O sistema retorna os dados do livro (título, ISBN, número de páginas, ano de publicação, categoria, formato, status, preço de venda, resumo, sumário, informações sobre o autor, preço de custo, margem de lucro, quantidade em estoque e informações sobre a editora) e o caso de uso encerra" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2935" y="740" width="250" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
