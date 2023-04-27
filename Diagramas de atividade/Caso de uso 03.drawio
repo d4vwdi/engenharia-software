@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T20:01:15.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="4kTsnoJz85gmg_6lrFmB" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T20:10:30.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2LX2h2iQ-azrpNyr0p5p" version="21.2.3" type="github">
   <diagram name="Página-1" id="QEftzoCklGQxdV4CvBpL">
     <mxGraphModel dx="903" dy="3991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,17 +66,13 @@
         <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-28" value="Após o sistema concluir o cadastro, é exibido a tela de login" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="-2590" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oHyiwI2R3Zv_ygy-SAZ_-32" target="oHyiwI2R3Zv_ygy-SAZ_-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oHyiwI2R3Zv_ygy-SAZ_-32" target="oHyiwI2R3Zv_ygy-SAZ_-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="-2160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-32" value="O cliente atualiza as informações que deseja alterar" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="-2180" width="250" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oHyiwI2R3Zv_ygy-SAZ_-34" target="oHyiwI2R3Zv_ygy-SAZ_-50" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-34" value="O cliente atualiza as informações que deseja alterar" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="-2180" width="250" height="40" as="geometry" />
+          <mxGeometry x="480" y="-2200" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-67" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oHyiwI2R3Zv_ygy-SAZ_-41" target="oHyiwI2R3Zv_ygy-SAZ_-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -131,12 +127,8 @@
         <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-53" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="-2080" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="oHyiwI2R3Zv_ygy-SAZ_-59" target="oHyiwI2R3Zv_ygy-SAZ_-32" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="605" y="-2090" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="XJILNj6ASgRctGwiZrrv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oHyiwI2R3Zv_ygy-SAZ_-59" target="oHyiwI2R3Zv_ygy-SAZ_-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHyiwI2R3Zv_ygy-SAZ_-59" value="&amp;nbsp;O sistema exibe uma mensagem de erro solicitando que ele corrija a informação" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="-2090" width="200" height="60" as="geometry" />
